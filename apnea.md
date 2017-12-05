@@ -18,9 +18,9 @@ Output:
   病人睡眠時間 (sleep, wake) list
     Time
 ```
-> 技師判斷是一晚發生次數 state ，這個標準 ( event condition, 分級) 會一直更新
-> Hypopenea - 淺呼吸，50%
-> OSA - 完全阻塞
+> 技師判斷是一晚發生次數 state ，這個標準 ( event condition, 分級) 會一直更新 <br>
+> Hypopenea - 淺呼吸，50% <br>
+> OSA - 完全阻塞 <br>
 > CSA - 中樞神經
 
 >睡眠呼吸中止症生率為： 14% 男性成人 5% 女性成人
