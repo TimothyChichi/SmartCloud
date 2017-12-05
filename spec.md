@@ -60,7 +60,9 @@ Output:
   Etiology <list> // 病因
   Correlated diseases risk <list>
   Seeking Medical advices <list>
+    科別
+    檢查項目
   Cure Advices <list>
-  Bahavior Suggestion <list>
-
+  Behavior Suggestion <list>
+  Voice inquiry
 ```
