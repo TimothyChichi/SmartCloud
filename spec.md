@@ -51,9 +51,6 @@ Input:
   }
 ```
 
-功能（要描述）
-scenario. functional
-
 ```
 Output:
   Sleep Apnea (normal, mild, moderate, severe) possibility
