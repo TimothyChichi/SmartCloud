@@ -1,13 +1,13 @@
 ```
 Input:
-  struct {
+  struct {                // from DCIC Lab module
     一整晚睡眠的 state <list>
       Normal, CSA, OSA, Hypopenea
       Time
     病人睡眠時間 (sleep, wake) <list> //測試當晚
       Time
   }
-  struct {
+  struct {                // from hospital
     Sex
     Age
     Weight
@@ -16,7 +16,7 @@ Input:
         過敏、COPD 、糖尿病、高血壓 ... etc.
     藥物過敏
   }
-  non_struct {
+  non_struct {            // from mobile
     voice
     text
     search
