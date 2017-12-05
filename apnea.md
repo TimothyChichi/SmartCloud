@@ -1,22 +1,22 @@
 ```
-Input : 
-	1. 胸腹三軸加速器 (XYZ *2)
-	2. 血氧濃度
-		
-	技師判斷結果
-	錄影錄音
-	心電圖
-	腦電圖
-	肌電圖
-	呼吸氣流訊號
+Input:
+  1. 胸腹三軸加速器 (XYZ *2)
+  2. 血氧濃度
 
-Output: 
-	一整晚睡眠的 state list
-		Normal, CSA, OSA, Hypopenea
-		Time
+  技師判斷結果
+  錄影錄音
+  心電圖
+  腦電圖
+  肌電圖
+  呼吸氣流訊號
 
-	病人睡眠時間 (sleep, wake) list
-		Time
+Output:
+  一整晚睡眠的 state list
+    Normal, CSA, OSA, Hypopenea
+    Time
+
+  病人睡眠時間 (sleep, wake) list
+    Time
 ```
 > 技師判斷是一晚發生次數 state ，這個標準 ( event condition, 分級) 會一直更新
 > Hypopenea - 淺呼吸，50%
