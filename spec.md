@@ -31,7 +31,7 @@ Input:
 ```
 Output:
   Sleep Apnea (normal, mild, moderate, severe)
-	Etiology <list> // 病因
-	Correlated diseases <list>
-	Cure advices <list>
+  Etiology <list> // 病因
+  Correlated diseases <list>
+  Cure advices <list>
 ```
