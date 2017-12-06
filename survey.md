@@ -1,7 +1,7 @@
 # A Survey of Medical/Healthcare Cloud with Integrated Big Data
 
 ![](/image/hir-22-156-g003-l.jpg)
-[Medical Internet of Things and Big Data in Healthcare](https://www.draw.io/#G1QmO_vfnG40WhVrM8YNbNYjejvmRkGnmB) <br>
+[Medical Internet of Things and Big Data in Healthcare](https://synapse.koreamed.org/DOIx.php?id=10.4258/hir.2016.22.3.156) <br>
 [Big Data and Cloud Computing: A Survey of the State-of-the-Art and Research Challenges](http://www.springer.com/cda/content/document/cda_downloaddocument/9783319451435-c2.pdf?SGWID=0-0-45-1595476-p180207618) <br>
 [How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html#N1064D) <br>
 [Service-generated big data and big data-as-a-service: an overview](http://ieeexplore.ieee.org/document/6597164/)
