@@ -35,7 +35,7 @@ Input:
     Medical history <list>
       慢性病：
         過敏、COPD 、糖尿病、高血壓 ... etc.
-    藥物過敏
+    Drug allergy //藥物過敏
   }
   non_struct {            // from mobile
     voice
