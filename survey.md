@@ -10,7 +10,10 @@
 
 其中在 "Big Data and Cloud Computing" 這篇中引用了另外一篇文章 "Service-generated big data and big data-as-a-service: an overview" ，待看。
 
-為什麼？
-我們需要什麼？
-IBM 架構好在哪裡？
-IBM 與 Azure 的比較？
+為什麼？ <br>
+我們需要什麼？<br>
+IBM 架構介紹<br>
+IBM 架構好在哪裡？<br>
+IBM 與 Azure 的比較？<br>
+
+[CSCC V2.0](http://www.cloud-council.org/deliverables/CSCC-Cloud-Customer-Architecture-for-Big-Data-and-Analytics.pdf)
