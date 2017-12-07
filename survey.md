@@ -17,3 +17,5 @@ IBM 架構好在哪裡？<br>
 IBM 與 Azure 的比較？<br>
 
 [CSCC V2.0](http://www.cloud-council.org/deliverables/CSCC-Cloud-Customer-Architecture-for-Big-Data-and-Analytics.pdf)
+
+2017-12-19 發佈 V3.0
