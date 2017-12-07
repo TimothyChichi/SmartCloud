@@ -9,3 +9,8 @@
 "Medical Internet of Things and Big Data in Healthcare" 和 "Big Data and Cloud Computing: A Survey of the State-of-the-Art and Research Challenges" 這兩篇是屬於 survey 性質的文章，不過兩者都有給一些 architecture design 的 view 。
 
 其中在 "Big Data and Cloud Computing" 這篇中引用了另外一篇文章 "Service-generated big data and big data-as-a-service: an overview" ，待看。
+
+為什麼？
+我們需要什麼？
+IBM 架構好在哪裡？
+IBM 與 Azure 的比較？
