@@ -47,6 +47,22 @@ Cloud Customer Architecture for Big Data and Analytics 是一個由 Cloud Standa
 
 ### Provider Cloud
 
+資料進來後，會分成兩種類型處理
+
+#### Streaming Computing
+
+![](./image/stream.jpg)
+
+Stream Computing 可以從各樣的輸入取得/處理大量、高度動態，且有時效性、持續的數據流 (stream)，以我們使用的例子而言，就是病人的呼吸訊號監測，或是病人平日的活動監測。
+
+Stream Computing 包含兩個特點
+1. Real-time analytical processing <br>
+以最低延遲對於儲存進來的資料做分析和決策。
+2. Data augmentation <br>
+將資料過慮後放進 Data integration 作更進一步的 background 分析。
+
+Stream Computing 要能隨著使用量或速度的需求增加/減少使用量。
+
 
 
 ---
