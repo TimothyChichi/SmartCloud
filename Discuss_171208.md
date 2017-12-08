@@ -36,6 +36,19 @@
 
 ---
 ## IBM Big Data Analytics in The Cloud -<br> Cloud Customer Architecture for Big Data and Analytics
+
+Cloud Customer Architecture for Big Data and Analytics 是一個由 Cloud Standards Customer Council (CSCC) 提出來的大數據分析的架構。其架構由3個網路組成，包括 Public Network. Provider Cloud. 和 Enterprise Network 。
+
+![](./image/arch1.jpg)
+
+### Public Network
+
+資料會從 User 端的 SaaS Application ，或是從公共資源中，透過 Edge Services ，將資料輸入。在這裡，我們可以理解 SaaS 就是使用者的 App ，而 Edge Services 簡單來說就是一個 protocal/firewall/load balancer ，確定好資料是從 user 端來的，同時也確定好資料要往哪個伺服器運送。
+
+### Provider Cloud
+
+
+
 ---
 ## Reference
 [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
