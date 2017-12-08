@@ -177,7 +177,26 @@ Enterprise Data 承載著應用程式裡面的關鍵資料，包含
 
 ![](./image/azure2.png)
 
-Azure 也有對於 Big data analytics 的 solution [5],[6]，與 CSCC 提出架構有部份相同，例如資料進來後也分成　straming comuting 和 data integration，但剩下的部份，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
+* **資料來源**：所有的巨量資料解決方案都是從一個或多個資料來源來做為開端。 範例包括：
+  * 應用程式資料存放區，例如關聯式資料庫。
+  * 應用程式所產生的靜態檔案，例如 Web 伺服器記錄檔。
+  * 即時資料來源，例如 IoT 裝置。
+
+* **資料存放區**：要進行批次處理作業的資料通常儲存在分散式檔案存放區，以便能夠保存大量具有不同格式的大型檔案。 這種存放區通常稱為「資料湖」。 可供實作此儲存體的選項包含 Azure Data Lake Store 或 Azure 儲存體中的 Blob 容器。
+
+* **批次處理**：由於資料集是如此龐大，巨量資料解決方案通常必須使用需要長時間執行的批次作業來處理資料檔案，以便篩選、彙總和準備資料以供分析。 這些作業通常涉及讀取原始程式檔、加以處理，然後將輸出寫入至新的檔案。 選項包括在 Azure Data Lake Analytics 中執行 U-SQL 作業、在 HDInsight Hadoop 叢集中使用 Hive、Pig 或自訂的 Map/Reduce 作業，或是在 HDInsight Spark 叢集中使用 Java、Scala 或 Python 程式。
+
+* **即時訊息擷取**：如果解決方案中包含即時來源，則架構中必須有方法可擷取和儲存即時訊息以進行串流處理。 這可能是簡單的資料存放區，內送訊息會放入資料夾處理。 不過，許多解決方案需要有訊息擷取存放區，以做為訊息的緩衝區，以及支援相應放大處理、可靠的傳遞和其他訊息佇列語意。 選項包括 Azure 事件中樞、Azure IoT 中樞和 Kafka。
+
+* **串流處理**：在擷取即時訊息後，解決方案必須經由篩選、彙總和準備要分析的資料，以便處理這些資料。 已處理的串流資料接著會寫入至輸出接收器。 Azure 串流分析會根據永久執行的 SQL 查詢 (會針對未繫結資料流進行操作) 提供受管理的串流處理服務。 您也可以使用開放原始碼的 Apache 串流技術，例如 HDInsight 叢集中的 Storm 和 Spark 串流。
+
+* **分析資料存放區**：許多巨量資料解決方案會準備資料以供分析，然後以可使用分析工具來查詢的結構化格式提供處理過的資料。 用來提供這些查詢的分析資料存放區可以是 Kimball 樣式的關聯式資料倉儲，如同我們在大部分的傳統商業智慧 (BI) 解決方案所看見的。 或者，我們也可以透過低延遲的 NoSQL 技術 (例如 HBase) 或是互動式 Hive 資料庫 (可針對分散式資料存放區中的資料檔案提供中繼資料擷取) 來呈現資料。 Azure SQL 資料倉儲可提供受管理的服務供大規模的雲端式資料倉儲使用。 HDInsight 則支援互動式 Hive、HBase 和 Spark SQL，它們也可用來提供要分析的資料。
+
+* **分析和報告**：大部分巨量資料解決方案的目標，是要透過分析和報告提供資料的深入見解。 為了讓使用者能夠分析資料，架構中可能要包括資料模型化層，例如 Azure Analysis Services 中的多維度 OLAP Cube 或表格式資料模型。 架構也可能會支援自助商業智慧，其使用的是 Microsoft Power BI 或 Microsoft Excel 中的模型化和視覺效果技術。 分析和報告也可供資料科學家或資料分析師透過互動方式瀏覽資料。 針對這些案例，許多 Azure 服務支援了分析筆記本 (例如 Jupyter)，讓這些使用者能夠利用其現有的技巧來使用 Python 或 R。若要瀏覽大規模的資料，您可以使用 Microsoft R Server (不論是獨立使用或搭配 Spark 來使用)。
+
+* **協調流程**：大部分的巨量資料解決方案都包含重複的資料處理作業並封裝在工作流程中，這些作業會轉換來源資料、在多個來源和接收器之間移動資料、將處理過的資料載入分析資料存放區，或將結果直接推送到報告或儀表板。 若要讓這些工作流程自動執行，您可以使用協調流程技術，例如 Azure Data Factory 或 Apache Oozie 和 Sqoop。
+
+Azure 也有對於 Big data analytics 的 solution [5],[6]，與 CSCC 提出架構有部份相同，例如資料進來後也分成 straming comuting 和 data integration，分析資料存放區理應與 data repositories 功能相同，也同樣有分析和報告，不同之處在於，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
 
 另外，目前 CSCC 提出的 Cloud Customer Architecture for Big Data and Analytics 目前是 V2.0 ，如果你上他們的網站的話，就會看到在 12/19 他們即將發佈 V3.0 的架構。
 
