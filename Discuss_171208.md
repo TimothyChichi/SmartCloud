@@ -65,7 +65,7 @@ Stream Computing 要能隨著使用量或速度的需求增加/減少使用量�
 
 #### Data Integration
 
-<img src="./image/integration.jpg" width="30%" height="30%">
+<img src="./image/integration.jpg" width="25%" height="25%">
 
 Data Integration 從各種不同的來源複製資訊，並能讓不同的資訊間產生關聯 (correlates information) ，一個完整的 Data integration 必須要能發現數據來源的特徵 (characteristics)，清理、監控、轉換，和運送 data 。其功能應包括
 
