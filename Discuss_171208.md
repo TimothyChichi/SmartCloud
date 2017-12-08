@@ -174,7 +174,7 @@ Enterprise Data 承載著應用程式裡面的關鍵資料，包含
 
 ![](./image/azure1.png)
 
-![](./image/azure2.svg)
+![](./image/azure2.png)
 
 與 CSCC 提出架構有部份相同，例如資料進來後也分成　straming comuting 和 data integration，但剩下的部份，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
 
