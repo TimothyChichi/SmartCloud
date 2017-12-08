@@ -116,16 +116,16 @@ Data repositories 包含以下幾個類型：
 
 <img src="./image/discovery.jpg" width="25%" height="25%">
 
-1. **Self-service**
+1. **Self-service** <br>
 用戶能夠自己註冊，訪問來自分析系統的輸出，能自己定義分析處理。
 
-2. **Visualization**
+2. **Visualization** <br>
 用戶可以自行建立儀表板來探索資料庫，可以操作觀察數據。
 
-3. **Data preparation**
+3. **Data preparation** <br>
 使用戶能將資料從原始型式轉換成更容易分析的格式。
 
-4. **Sandbox**
+4. **Sandbox** <br>
 把資料複製到一個私有區域來進行沙盒實驗。
 
 #### Deployed Analytics
@@ -140,9 +140,51 @@ Deployed Analytics 是一個 anylistcs applications 的集合，其用來
 * 計劃和預報 (forecasting) 未來的場景。
 
 
-
-
 ### Enterprise Network
+
+Enterprise network 包含了 enterprise applications ，以及 enterprise data <br>
+<img src="./image/enterprise.jpg" width="25%" height="25%">
+
+#### Enterprise Data
+
+Enterprise Data 承載著應用程式裡面的關鍵資料，包含
+
+1. **Reference data**
+提供有效值或查找資料（例如：zip code）。
+
+2. **Maser data**
+儲存關鍵實體的屬性 (attributes) ，例如：帳戶資料。
+
+3. **Transactional data**
+
+4. **Application data**
+
+5. **Log data**
+
+6. **Enterprise content data**
+
+7. **Historical data**
+
+
+### Overview
+![](./image/overview.jpg)
+
+---
+## Azure solution for Big Data Analytics
+
+![](./image/azure1.png)
+
+![](./image/azure2.svg)
+
+與 CSCC 提出架構有部份相同，例如資料進來後也分成　straming comuting 和 data integration，但剩下的部份，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
+
 ---
 ## Reference
+
 [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
+
+[How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html#N10315)
+
+[Understanding Microsoft big data solutions](https://msdn.microsoft.com/zh-tw/library/dn749804.aspx)
+
+[巨量資料架構樣式](https://docs.microsoft.com/zh-tw/azure/architecture/guide/architecture-styles/big-data)]
