@@ -35,8 +35,7 @@
   必須嚴謹挑選 sample data ，需要判斷資料是否是我們需要的資訊，資料是否有假，資料是否有異常值
 
 ---
-## IBM Big Data Analytics in The Cloud -
-## Cloud Customer Architecture for Big Data and Analytics
+## IBM Big Data Analytics in The Cloud -<br> Cloud Customer Architecture for Big Data and Analytics
 ---
 ## Reference
 [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
