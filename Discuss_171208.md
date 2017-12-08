@@ -70,10 +70,9 @@ Stream Computing 可以從各樣的輸入取得/處理大量、高度動態，�
 Stream Computing 包含兩個特點
 1. **Real-time analytical processing** <br>
 以最低延遲對於儲存進來的資料做分析和決策。
-2. **Data augmentation** <br>
-將資料過慮後放進 Data integration 作更進一步的 background 分析。
 
-Stream Computing 要能隨著使用量或速度的需求增加/減少使用量。
+2. **Data augmentation** <br>
+將資料過慮後放進 Data integration 作更進一步的 background 分析。Stream Computing 要能隨著使用量或速度的需求增加/減少使用量。
 
 #### Data Integration
 
@@ -83,10 +82,12 @@ Data Integration 從各種不同的來源複製資訊，並能讓不同的資訊
 
 1. **Data stagging** <br>
 將 data 轉換成適合的格式交給下游處理
+
 2. **Data quality** <br>
 清理和組織 data ，以便消除冗餘 (redundancies) 和不一致性 (inconsistencies) ，讓 data 滿足使用者的需求。
 3. **Provisioning** <br>
 轉換、管理以及將 data 交給適合的目標， provisioning 可以在不同的 data repositories 移動 data ，從 data source 轉移 data 出來/進入 (to/from) 。
+
 4. **Entity services** <br>
 從不同的來源匹配 data ，以便為關鍵實體 (key entities) 提供更完整的視野 (view) 。
 
@@ -150,10 +151,10 @@ Enterprise network 包含了 enterprise applications ，以及 enterprise data <
 
 Enterprise Data 承載著應用程式裡面的關鍵資料，包含
 
-1. **Reference data**
+1. **Reference data** <br>
 提供有效值或查找資料（例如：zip code）。
 
-2. **Maser data**
+2. **Maser data** <br>
 儲存關鍵實體的屬性 (attributes) ，例如：帳戶資料。
 
 3. **Transactional data**
