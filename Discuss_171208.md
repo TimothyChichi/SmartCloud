@@ -30,11 +30,13 @@
   Struct data - 病歷、睡眠測試結果 (From DSP module) 、病人活動資訊 (From mobile) <br>
   Non-structured data - Text. image. voice. metadata
 3. Velocity 資料即時性<br>
-  病人資料進來後，要能即時分析，除了回饋以外，要能自我學習，把不必要的資料清空 (Clean up)，把有用的資訊保存下來
+  病人資料進來後，要能即時分析，除了回饋以外，要能自我學習，把不必要的資料清空 (Clean up)，將有用的資訊保存
 4. Veracity 資料正確性<br>
   必須嚴謹挑選 sample data ，需要判斷資料是否是我們需要的資訊，資料是否有假，資料是否有異常值
 
-
+---
+## IBM Big Data Analytics in The Cloud -
+## Cloud Customer Architecture for Big Data and Analytics
 ---
 ## Reference
 [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
