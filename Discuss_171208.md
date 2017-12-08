@@ -43,12 +43,13 @@
   病人資料進來後，要能即時分析，除了回饋以外，要能自我學習，把不必要的資料清空 (Clean up)，將有用的資訊保存
 
 4. **Veracity 資料正確性**<br>
-  必須嚴謹挑選 sample data ，需要判斷資料是否是我們需要的資訊，資料是否有假，資料是否有異常值
+  必須嚴謹挑選 sample data ，需要判斷資料是否是我們需要的資訊，資料是否有假，資料是否有異常值 [1]
 
 ---
 ## IBM Big Data Analytics in The Cloud -<br> Cloud Customer Architecture for Big Data and Analytics
 
-Cloud Customer Architecture for Big Data and Analytics 是一個由 Cloud Standards Customer Council (CSCC) 提出來的大數據分析的架構。其架構由3個網路組成，包括 Public Network. Provider Cloud. 和 Enterprise Network 。
+Cloud Customer Architecture for Big Data and Analytics [2] 是一個由 Cloud Standards Customer Council (CSCC) [3] 提出來的大數據分析的架構。其架構由3個網路組成，包括 Public Network. Provider Cloud 和 Enterprise Network 。 IBM 的，主要 solution 就是使用此架構 [4]。
+
 
 ![](./image/arch1.jpg)
 
@@ -176,15 +177,21 @@ Enterprise Data 承載著應用程式裡面的關鍵資料，包含
 
 ![](./image/azure2.png)
 
-與 CSCC 提出架構有部份相同，例如資料進來後也分成　straming comuting 和 data integration，但剩下的部份，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
+Azure 也有對於 Big data analytics 的 solution [5],[6]，與 CSCC 提出架構有部份相同，例如資料進來後也分成　straming comuting 和 data integration，但剩下的部份，在 Azure 中是較沒有架構，不過看起來所有的 components 都可以在 Azure marketplace 找到，也就是說,只要有 CSCC 的架構， Azure 也能兜出一樣的 Big data anylitics cloud 。
+
+另外，目前 CSCC 提出的 Cloud Customer Architecture for Big Data and Analytics 目前是 V2.0 ，如果你上他們的網站的話，就會看到在 12/19 他們即將發佈 V3.0 的架構。
 
 ---
 ## Reference
 
-[大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
+[1] [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
 
-[How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html#N10315)
+[2] [Cloud Customer Architecture for Big Data and Analytics V2.0](http://www.cloud-council.org/deliverables/CSCC-Cloud-Customer-Architecture-for-Big-Data-and-Analytics.pdf)
 
-[Understanding Microsoft big data solutions](https://msdn.microsoft.com/zh-tw/library/dn749804.aspx)
+[3] [Cloud Standards Customer Council](http://www.cloud-council.org/)
 
-[巨量資料架構樣式](https://docs.microsoft.com/zh-tw/azure/architecture/guide/architecture-styles/big-data)]
+[4] [How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html#N10315)
+
+[5] [Understanding Microsoft big data solutions](https://msdn.microsoft.com/zh-tw/library/dn749804.aspx)
+
+[6] [巨量資料架構樣式](https://docs.microsoft.com/zh-tw/azure/architecture/guide/architecture-styles/big-data)
