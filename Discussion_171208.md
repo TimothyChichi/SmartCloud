@@ -204,7 +204,7 @@ Azure 也有對於 Big data analytics 的 solution [5],[6]，與 CSCC 提出架�
 ---
 ## Reference
 
-[1] [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
+[1] [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/%E5%A4%A7%E6%95%B8%E6%93%9A%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E9%BA%BC%E6%84%8F%E6%80%9D%EF%BC%9F%E4%BA%8B%E5%AF%A6%E4%B8%8A%EF%BC%8C%E5%AE%83%E6%98%AF%E4%B8%80%E7%A8%AE%E7%B2%BE%E7%A5%9E%EF%BC%81/)
 
 [2] [Cloud Customer Architecture for Big Data and Analytics V2.0](http://www.cloud-council.org/deliverables/CSCC-Cloud-Customer-Architecture-for-Big-Data-and-Analytics.pdf)
 
