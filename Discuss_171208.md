@@ -25,7 +25,7 @@
 ### Big Data issues - 4V's
 
 1. Volume 資料量 <br>
-紀錄病人的各種活動、文字、影像需要非常大量的取樣資料 (sample/reference) 和測試 (test) 資料。
+  紀錄病人的各種活動、文字、影像需要非常大量的取樣資料 (sample/reference) 和測試 (test) 資料。
 2. Variety 資料多元性<br>
   Struct data - 病歷、睡眠測試結果 (From DSP module) 、病人活動資訊 (From mobile) <br>
   Non-structured data - Text. image. voice. metadata
@@ -63,7 +63,20 @@ Stream Computing 包含兩個特點
 
 Stream Computing 要能隨著使用量或速度的需求增加/減少使用量。
 
+#### Data Integration
 
+<img src="./image/integration.jpg" width="30%" height="30%">
+
+Data Integration 從各種不同的來源複製資訊，並能讓不同的資訊間產生關聯 (correlates information) ，一個完整的 Data integration 必須要能發現數據來源的特徵 (characteristics)，清理、監控、轉換，和運送 data 。其功能應包括
+
+1. Data stagging <br>
+將 data 轉換成適合的格式交給下游處理
+2. Data quality <br>
+清理和組織 data ，以便消除冗餘 (redundancies) 和不一致性 (inconsistencies) ，讓 data 滿足使用者的需求。
+3. Provisioning
+轉換、管理以及將 data 交給適合的目標， provisioning 可以在不同的 data repositories 移動 data ，從 data source 轉移 data 出來/進入 (to/from) 。
+4. Entity services
+從不同的來源匹配 data ，以便為關鍵實體 (key entities) 提供更完整的視野 (view) 。
 
 ---
 ## Reference
