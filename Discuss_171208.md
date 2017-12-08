@@ -64,7 +64,7 @@ Cloud Customer Architecture for Big Data and Analytics 是一個由 Cloud Standa
 
 ![](./image/stream.jpg)
 
-Stream Computing 可以從各樣的輸入取得/處理大量、高度動態，且有時效性、持續的數據流 (stream)，以我們使用的例子而言，就是病人的呼吸訊號監測，或是病人平日的活動監測。
+Stream Computing 可以從各樣的輸入取得/處理大量、高度動態，且有時效性、持續的數據流 (stream)，以我們使用的例子而言，就是病人的呼吸訊號監測、病人平日的活動監測，或是病人的問診系統。
 
 Stream Computing 包含兩個特點
 1. **Real-time analytical processing** <br>
@@ -89,6 +89,60 @@ Data Integration 從各種不同的來源複製資訊，並能讓不同的資訊
 4. **Entity services** <br>
 從不同的來源匹配 data ，以便為關鍵實體 (key entities) 提供更完整的視野 (view) 。
 
+#### Data Repositories
+
+<img src="./image/repo.jpg" width="25%" height="25%">
+
+Data Repositories 是 data 主要儲存的儲存庫，可以使用不同的平台，例如： Hadoop, NoSQL 。儲存在儲存庫中的 data 有可能來自遺留的 (legacy) 、新的、串流來源、企業的應用程式、企業的資料、已清理或是從串流分析輸出的資料。
+
+Data repositories 包含以下幾個類型：
+
+1. **Catalog** <br>
+來自 discovery 和 IT 資料組織的結果建立一個目錄，來提供一個反應信息 (information) 的視角 (view) 。Big data 的引入使得資料庫對於儲存資料的內容、分類、所有權、信息的相關性需求增加，從這個目錄，使用者可以控制資料的使用。
+
+2. **Data virtualization** <br>
+允許應用程式可以快速的 (Agile) 檢索和操作資料，而不需要關於資料的技術細節、落地、探索和歸檔：允許使用各種工具來儲存、探索和擴充大型的資料集合。因為大規模和非結構性 (non-structured) 的資料引入，意味著"在資料輸入前就設計資料庫"的這個方法已經不再可行。資料可以用於存檔，可以藉由分散在各個儲存空間的副本，來獲得更高的可靠性和恢復能力。
+
+3. **Deep analytics and modeling**<br>
+應用統計模型可以從非結構化和半結構化 (semi-structured) 的大型資料集合中獲得信息。深度分析從　PB(petabytes) 和 EB(Exabytes) 中取得精確的結過。 未來在即時的或接近即時性的 (near real-time) 的反應需求會越來越普遍。
+
+4. **Interactive analysis and reporting**<br>
+針對自助資料訪問可視化，用應用程式操作 API 訪問資料庫。
+
+5. **Data warehousing**<br>
+歷史資料、摘要資料或是其他來源的資料儲存的地方，通常會放主題導向的、非揮發性的時序資料 (time-series data) ，這些資料可以用於企業決策。通常工作量是密集的，會訪問數百萬條來方便掃描、合併和聚合，吞吐量 (throughput) 和反應時間通常是最優先考量。
+
+####  Analytics Discovery & Exploration
+
+<img src="./image/discovery.jpg" width="25%" height="25%">
+
+1. **Self-service**
+用戶能夠自己註冊，訪問來自分析系統的輸出，能自己定義分析處理。
+
+2. **Visualization**
+用戶可以自行建立儀表板來探索資料庫，可以操作觀察數據。
+
+3. **Data preparation**
+使用戶能將資料從原始型式轉換成更容易分析的格式。
+
+4. **Sandbox**
+把資料複製到一個私有區域來進行沙盒實驗。
+
+#### Deployed Analytics
+
+<img src="./image/deployed.jpg" width="25%" height="25%">
+
+Deployed Analytics 是一個 anylistcs applications 的集合，其用來
+* 基於分析的決策管理，使組織能夠制定經過分析的自動化決策。
+* 預測分析服務，從現有的資訊和資料來識別模型 (patterns) ，預測未來趨勢。
+* 分析並向管理者報告和操作資料庫。
+* 內容分析服務，讓使用者觀察並理解結構化和非結構化的資料。公司內大部分的訊息被作為非結構化資料來維護，例如文件、資料庫中的本文片斷、 Wikis 等內容。
+* 計劃和預報 (forecasting) 未來的場景。
+
+
+
+
+### Enterprise Network
 ---
 ## Reference
 [大數據到底是什麼意思？事實上，它是一種精神！](https://hellolynn.hpd.io/2017/06/09/)
